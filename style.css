@@ -26,8 +26,13 @@ li a {
     text-decoration: none;
 }
 
-li a {
+li a:hover{
     background: azure;
+    color: black;
+}
+
+li a.active{
+    background: goldenrod;
     color: black;
 }
 
